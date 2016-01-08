@@ -12,12 +12,12 @@ export default moment.defineLocale('nb', {
     weekdaysShort : 'sø._ma._ti._on._to._fr._lø.'.split('_'),
     weekdaysMin : 'sø_ma_ti_on_to_fr_lø'.split('_'),
     longDateFormat : {
-        LT : 'HH:mm',
-        LTS : 'HH:mm:ss',
+        LT : 'HH.mm',
+        LTS : 'HH.mm,ss',
         L : 'DD.MM.YYYY',
         LL : 'D. MMMM YYYY',
-        LLL : 'D. MMMM YYYY [kl.] HH:mm',
-        LLLL : 'dddd D. MMMM YYYY [kl.] HH:mm'
+        LLL : 'D. MMMM YYYY [kl.] HH.mm',
+        LLLL : 'dddd D. MMMM YYYY [kl.] HH.mm'
     },
     calendar : {
         sameDay: '[i dag kl.] LT',
@@ -49,4 +49,3 @@ export default moment.defineLocale('nb', {
         doy : 4  // The week that contains Jan 4th is the first week of the year.
     }
 });
-
